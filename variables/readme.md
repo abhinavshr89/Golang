@@ -2,7 +2,7 @@
 
 
 **Method 1**
-```
+```go
 var username string = "Abhinav"
 fmt.Println(username)
 fmt.Printf("Variable is of type :  %T\n", username)
@@ -16,7 +16,7 @@ fmt.Printf("Variable is of type :  %T\n", anothervariable)
 - Go does not put garbage values in the variables instead the variable anothervariable will be initialized with zero
 
 **Method 2 (Implicit type)**
-```
+```go
 var website = "This is my string"
 	fmt.Println(website)
 	fmt.Printf("Variable is of type :  %T\n", website)
@@ -24,7 +24,7 @@ var website = "This is my string"
 - Here we dont need to write the datatype after the variable name 
 
 **Method 3 (using Walrus operator)**
-```
+```go
 numberOfUsers := 300000
 	fmt.Println(numberOfUsers)
 	fmt.Printf("Variable is of type :  %T\n", numberOfUsers)
@@ -33,7 +33,7 @@ numberOfUsers := 300000
 
 
 ## Const in Golang
-```
+```go
 const LoginToken string = "abcdefghijklmnopqrstuvwxyzABCDEF"
 ```
 - Here the L of the LoginToken is capital this makes it a public variable
