@@ -23,6 +23,7 @@ Output :
 <nil>
 ```
 
+**We can modify the original variable using the pointers**
 ```go
 *ptr = *ptr * 3
 fmt.Println(number)
