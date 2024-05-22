@@ -119,6 +119,7 @@ vegetableList := []string{"Carrot", "Potato", "Tomato"}
 [Guava]
 [Guava Apple Orange Grapes Banana strawberry]
 ```
+                       0      1     2     3       4       5
 * Original slice = `[Guava Apple Orange Grapes Banana strawberry]`
 
 ```go
@@ -129,6 +130,7 @@ fmt.Println(fruitList)
 ```
 [Orange Grapes Banana strawberry]
 ```
+                       0      1     2     3       4       5
 * Original slice = `[Guava Apple Orange Grapes Banana strawberry]`
 ```go
 fruitList = append(fruitList[2:5]) // elements from 2nd index to 4th index
