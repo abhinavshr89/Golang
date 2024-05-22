@@ -22,3 +22,9 @@ Output :
 ```
 <nil>
 ```
+
+```go
+*ptr = *ptr * 3
+fmt.Println(number)
+```
+- This technically means `value at ptr` = `value at ptr` * `3`
