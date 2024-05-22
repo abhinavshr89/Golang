@@ -84,14 +84,15 @@ Elements from 1 to 2 are : [2 3]
 
 
 # Array vs Slices in Golang
-### This is an array declaration and intialization**
+### This is an array declaration and intialization
 ```go
 vegetableList := [3]string{"Carrot", "Potato", "Tomato"}
 
 ```
 
-### This is an array declaration and intialization**
+### This is a slice declaration and intialization
 ```go
 vegetableList := []string{"Carrot", "Potato", "Tomato"}
 
 ```
+* Slices are dynamic in size 
