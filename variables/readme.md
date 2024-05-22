@@ -8,7 +8,7 @@ fmt.Println(username)
 fmt.Printf("Variable is of type :  %T\n", username)
 ```
 **Default Values**
-```
+```go
 var anothervariable int
 fmt.Println(anothervariable) 
 fmt.Printf("Variable is of type :  %T\n", anothervariable)
@@ -18,16 +18,16 @@ fmt.Printf("Variable is of type :  %T\n", anothervariable)
 **Method 2 (Implicit type)**
 ```go
 var website = "This is my string"
-	fmt.Println(website)
-	fmt.Printf("Variable is of type :  %T\n", website)
+fmt.Println(website)
+fmt.Printf("Variable is of type :  %T\n", website)
 ```
 - Here we dont need to write the datatype after the variable name 
 
 **Method 3 (using Walrus operator)**
 ```go
 numberOfUsers := 300000
-	fmt.Println(numberOfUsers)
-	fmt.Printf("Variable is of type :  %T\n", numberOfUsers)
+fmt.Println(numberOfUsers)
+fmt.Printf("Variable is of type :  %T\n", numberOfUsers)
 ```
 - Here we dont need to write var before the wariable name
 
