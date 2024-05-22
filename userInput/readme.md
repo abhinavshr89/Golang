@@ -48,9 +48,4 @@ input = input[:len(input)-1] // Removing the newline character
 - Slightly more complex to set up and use compared to `fmt.Scanln`.
 - Requires handling of the newline character and potential errors.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README file is now ready to be used in your GitHub repository with proper code snippets and syntax highlighting.
