@@ -188,3 +188,19 @@ fmt.Println(fruitList)
 ```go
  fmt.Println(sort.IntsAreSorted(highscore))
 ```
+
+-----------------------------------------------------------
+### How to remove a value from a slice based on the index 
+
+```go
+   courses := []string{"reactjs","javascript","swift","ruby"}
+   fmt.Println(courses)
+   
+   var index int = 2 
+   courses = append(courses[:index],courses[index+1:]...)
+   fmt.Println(courses)
+```
+```
+[reactjs javascript swift ruby]
+[reactjs javascript ruby]
+```
