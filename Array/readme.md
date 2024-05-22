@@ -96,3 +96,36 @@ vegetableList := []string{"Carrot", "Potato", "Tomato"}
 
 ```
 * Slices are dynamic in size 
+
+
+# Slices in Golang
+
+
+### Appending an element to a slice
+```go
+  var fruitList = []string{"Guava"}
+
+   fmt.Println(fruitList)
+
+   fruitList = append(fruitList, "Apple")
+   fruitList = append(fruitList, "Orange")
+   fruitList = append(fruitList, "Grapes")
+
+   fruitList = append(fruitList, "Banana","strawberry") // we can append multiple elements
+
+   fmt.Println(fruitList)
+```
+```
+[Guava]
+[Guava Apple Orange Grapes Banana strawberry]
+```
+
+
+```go
+fruitList = append(fruitList[2:])
+fmt.Println(fruitList)
+```
+
+```
+[Orange Grapes Banana strawberry]
+```
