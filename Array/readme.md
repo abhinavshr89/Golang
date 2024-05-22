@@ -1,6 +1,6 @@
 # Array in Golang
 
-**Initializing an array with values**
+**1.Initializing an array with values**
 ```go
 vegetableList := [3]string{"Carrot", "Potato", "Tomato"}
 fmt.Println("Vegetable List:", vegetableList)
@@ -22,7 +22,7 @@ Vegetable List: [Carrot Potato Tomato]
 ```
 - Here `fruitList[2]` will hold an empty string because that is the zero value of the string
 
-**Using for loop to iterate over the array**
+**2. Using for loop to iterate over the array**
 ```go
  fmt.Println("Iterating through the fruit list:")
     for i := 0; i < len(fruitList); i++ {
@@ -37,7 +37,7 @@ vegetableList[2]: Tomato
 ```
 
 
-**Iterating using the range keyword**
+**3. Iterating using the range keyword**
 ```go
  fmt.Println("Iterating through the vegetable list using range:")
     for index, value := range vegetableList {
@@ -53,7 +53,7 @@ vegetableList[2]: Tomato
 ```
 
 
-**Copying Arrays**
+**4. Copying Arrays**
 ```go
     var copiedFruitList [4]string
     copiedFruitList = fruitList
@@ -61,7 +61,7 @@ vegetableList[2]: Tomato
 
 ```
 
-**Slicing an array**
+**5. Slicing an array**
 ```go
 var myArray = [4]int{1, 2, 3, 4}
 
