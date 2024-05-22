@@ -17,6 +17,8 @@ fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday"))
 
 ```
 
-* Here to format we always have to use this line ```go
+* Here to format we always have to use this line
+ 
+```go
 fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday"))
 ```
