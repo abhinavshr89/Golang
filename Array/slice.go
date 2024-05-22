@@ -16,6 +16,6 @@ func main() {
 
    fmt.Println(fruitList)
 
-   fruitList = append(fruitList[2:])
+   fruitList = append(fruitList[2:5])
    fmt.Println(fruitList)
 }
