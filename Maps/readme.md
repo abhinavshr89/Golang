@@ -15,6 +15,12 @@ language := make(map[string]string)
 	language["pt"] = "Portuguese"
 
 ```
+
+**syntax for creating a map in golang**
+```
+mapName := make(map[keyType]valueType)
+
+```
 ---------------------------------------------
 ## Different ways to print maps using loops 
 
