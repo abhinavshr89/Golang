@@ -138,3 +138,53 @@ fmt.Println(fruitList)
 ```
 [Orange Grapes Banana]
 ```
+
+```go
+   fruitList = append(fruitList[:5])
+   fmt.Println(fruitList)
+```
+```
+[Guava Apple Orange Grapes Banana]
+```
+* If no start value is given then it takes teh 0 as the start value 
+
+
+### Another syntax for creating slice 
+```go
+
+   highscore := make([]int , 4)
+
+   highscore[0] = 100
+   highscore[1] = 200
+   highscore[2] = 400
+   highscore[3] = 250
+// highscore[4]=450  !This will cause error
+   fmt.Println(highscore)
+
+   highscore = append(highscore, 50, 900, 740, 800)
+   fmt.Println(highscore)
+
+```
+
+```
+[100 200 400 250]
+[100 200 400 250 50 900 740 800]
+```
+
+
+### sorting a slice 
+
+```go
+   sort.Ints(highscore)
+   fmt.Println(highscore)
+```
+
+```
+[50 100 200 250 400 740 800 900]
+```
+
+
+**checking if a slice is sorted or not**
+```go
+ fmt.Println(sort.IntsAreSorted(highscore))
+```

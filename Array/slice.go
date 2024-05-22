@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 
@@ -16,6 +19,23 @@ func main() {
 
    fmt.Println(fruitList)
 
-   fruitList = append(fruitList[2:5])
+   fruitList = append(fruitList[:5])
    fmt.Println(fruitList)
+
+
+   highscore := make([]int , 4)
+
+   highscore[0] = 100
+   highscore[1] = 200
+   highscore[2] = 400
+   highscore[3] = 250
+// highscore[4]=450  !This will cause error
+   fmt.Println(highscore)
+
+   highscore = append(highscore, 50, 900, 740, 800)
+   fmt.Println(highscore)
+   
+   sort.Ints(highscore)
+   fmt.Println(highscore)
+   fmt.Println(sort.IntsAreSorted(highscore))
 }
