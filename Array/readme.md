@@ -21,7 +21,7 @@ Vegetable List: [Carrot Potato Tomato]
 
 ```
 - Here `fruitList[2]` will hold an empty string because that is the zero value of the string
-
+--------------------------------------------------------------------------------------------
 ### Using for loop to iterate over the array
 ```go
  fmt.Println("Iterating through the fruit list:")
