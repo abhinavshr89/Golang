@@ -27,6 +27,15 @@ fmt.Scanln(&name)
 
 ### bufio.NewReader and ReadString
 
+* To use bufio you will need to import these first 
+```go
+import (
+    "bufio"
+    "fmt"
+    "os"
+)
+```
+
 **Usage:**
 ```go
 reader := bufio.NewReader(os.Stdin)
