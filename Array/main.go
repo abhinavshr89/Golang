@@ -48,4 +48,5 @@ func main() {
 
     // Printing the slice
     fmt.Println("Elements from 1 to 2 are :",mySlice) 
+
 }
